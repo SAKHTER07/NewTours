@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-29T14:05:06 EST" name="Default suite" finished-at="2022-01-29T14:05:25 EST" duration-ms="19229">
+    <groups>
+    </groups>
+    <test started-at="2022-01-29T14:05:06 EST" name="Default test" finished-at="2022-01-29T14:05:25 EST" duration-ms="19229">
+      <class name="com.mercury.webtours.test.TestSmoke">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:com.mercury.webtours.test.TestSmoke@6f27a732]" started-at="2022-01-29T14:05:06 EST" name="startBrowser" finished-at="2022-01-29T14:05:13 EST" duration-ms="7455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="userLoginValidation(java.lang.String, java.lang.String)[pri:0, instance:com.mercury.webtours.test.TestSmoke@6f27a732]" started-at="2022-01-29T14:05:15 EST" name="userLoginValidation" data-provider="getLogin" finished-at="2022-01-29T14:05:22 EST" duration-ms="7289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jojobean]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jojobean]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLoginValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.mercury.webtours.test.TestSmoke@6f27a732]" started-at="2022-01-29T14:05:22 EST" name="closeBrowser" finished-at="2022-01-29T14:05:25 EST" duration-ms="2947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.mercury.webtours.test.TestSmoke -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
